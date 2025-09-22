@@ -49,7 +49,7 @@ fun TextCell(text: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
-    Row(horizontalArrangement = Arrangement.SpaceBetween,
+    Row(horizontalArrangement = Arrangement.SpaceAround,
         modifier = modifier.width(1000.dp)) {
         TextCell("1")
         TextCell("2")
